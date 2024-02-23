@@ -20,7 +20,7 @@ for i in range(len(random_list)):
             # write higher value from temp to next element
             random_list[j + 1] = temp
 
-# print results
+# print result
 print(f"sorted list: {random_list}")
 
 # calculate average for even and odd numbers

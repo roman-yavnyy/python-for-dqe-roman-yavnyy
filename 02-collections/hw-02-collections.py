@@ -18,7 +18,7 @@ for d in range(random.randint(2, 10)):
     # add dict to list
     list_of_dicts.append(new_dict)
 
-# print dicts
+# print dict
 print(list_of_dicts)
 
 
