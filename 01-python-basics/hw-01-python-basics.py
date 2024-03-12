@@ -29,21 +29,20 @@ even_list = []
 # add list with only odd numbers
 odd_list = []
 # add even numbers to the list
-# loop through whole list
-for i in random_list:
-    # if remainder after division by 2 is zero - then even
-    if i % 2 == 0:
-        # add element to even list
-        even_list.append(i)
-    # in other case
-    else:
-        # add element to odd list
-        odd_list.append(i)
+even_list = [i for i in random_list if i % 2 == 0]
+# add odd numbers to the list
+odd_list = [i for i in random_list if i % 2 != 0]
 
 # calculate even average. sum of elements divided by number of elements
-even_average = sum(even_list) / len(even_list)
+try:
+    even_average = sum(even_list) / len(even_list)
+except ZeroDivisionError as e:
+    print(f"Exception: {e}")
 # same for odd numbers
-odd_average = sum(odd_list) / len(odd_list)
+try:
+    odd_average = sum(odd_list) / len(odd_list)
+except ZeroDivisionError as e:
+    print(f"Exception: {e}")
 
 # print even average
 print(f"average for even numbers: {even_average}")

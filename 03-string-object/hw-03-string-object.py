@@ -13,6 +13,7 @@ text_to_fix = """homEwork:
 
   last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87.
 """
+'''
 # fixed "iz" words
 fixed_text = re.sub(r'(\biz\b)', 'is', text_to_fix, flags=re.I)
 # "removed extra newlines"
@@ -44,3 +45,39 @@ print(joined_text)
 count = len(re.findall(r'\s', text_to_fix))
 
 print(f"\nNumber  of whitespaces: {count}")
+'''
+
+
+def correct_mistakes(sentence):
+    list_of_words = []
+    for word in sentence.split(' '):
+        if word.lower() == "iz":
+            word = word.replace("z", "s")
+        list_of_words.append(word)
+    return " ".join(list_of_words)
+
+
+def reformat_text(input_text):
+    list_input_sentences = input_text.split('.')
+    list_output_words = []
+
+    for sentence in list_input_sentences:
+        mod_sent = sentence.strip().lower().capitalize()
+        list_output_words.append(correct_mistakes(mod_sent))
+    mod_sentence = ".\n".join(list_output_words)
+    return mod_sentence
+
+
+def get_last_words_in_sentence(input_text):
+    list_of_sencences = input_text.split('.')
+    last_words = []
+    for sentence in list_of_sencences:
+        last_words.append(sentence.split(' ')[-1])
+    last_words_sentence = ' '.join(last_words)
+    return last_words_sentence.capitalize()
+
+
+modified_sentence = reformat_text(text_to_fix)
+extra_sentence = get_last_words_in_sentence(modified_sentence)
+print(modified_sentence)
+print(extra_sentence)
