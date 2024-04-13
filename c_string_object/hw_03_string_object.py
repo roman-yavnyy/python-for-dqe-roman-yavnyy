@@ -77,7 +77,8 @@ def get_last_words_in_sentence(input_text):
     return last_words_sentence.capitalize()
 
 
-modified_sentence = reformat_text(text_to_fix)
-extra_sentence = get_last_words_in_sentence(modified_sentence)
-print(modified_sentence)
-print(extra_sentence)
+if __name__ == "__main__":
+    modified_sentence = reformat_text(text_to_fix)
+    extra_sentence = get_last_words_in_sentence(modified_sentence)
+    print(modified_sentence)
+    print(extra_sentence)

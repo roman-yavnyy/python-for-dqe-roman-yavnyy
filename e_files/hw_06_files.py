@@ -2,7 +2,7 @@ import sys
 from datetime import datetime
 sys.path.append("..")
 from d_classes_oop.hw_05_classes_oop import save_feed, News, PrivateAd, Vacancies, run_app as manual_input
-
+from c_string_object.hw_03_string_object import reformat_text
 
 class FileFeedProvider:
     def __init__(self):
@@ -35,12 +35,13 @@ class FileFeedProvider:
         self.read_feed()
         if self.input_feeds_list:
             for feed in self.input_feeds_list:
+                print(feed)
                 if feed.split("|")[0] == "News":
-                    text = feed.split("|")[1]
-                    city = feed.split("|")[2]
+                    text = reformat_text(feed.split("|")[1])
+                    city = reformat_text(feed.split("|")[2])
                     self.output_feeds_list.append(News(text, city))
                 elif feed.split("|")[0] == "PrivateAd":
-                    text = feed.split("|")[1]
+                    text = reformat_text(feed.split("|")[1])
                     try:
                         expiration_date = feed.split("|")[2]
                         expiration_date = datetime.strptime(expiration_date, "%Y-%m-%d")
@@ -50,8 +51,8 @@ class FileFeedProvider:
                     self.output_feeds_list.append(PrivateAd(text, expiration_date))
                 elif feed.split("|")[0] == "Vacancy":
                     company_name = feed.split("|")[1]
-                    name = feed.split("|")[2]
-                    description = feed.split("|")[3]
+                    name = reformat_text(feed.split("|")[2])
+                    description = reformat_text(feed.split("|")[3])
                     salary = feed.split("|")[4]
                     self.output_feeds_list.append(Vacancies(company_name, name, description, salary))
                 else:
