@@ -1,0 +1,14 @@
+News: test news | City: NY | Date: Sat Apr 13 15:14:59 2024 
+News: another test | City: CA | Date: Sat Apr 13 15:15:17 2024 
+Company name: Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500
+Vacancy: ============================
+Company name: EPAM
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: awsdasdas | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Volfswagen Golf for sale | Expiration date: 2024-12-22 00:00:00 | Days left: 252 
