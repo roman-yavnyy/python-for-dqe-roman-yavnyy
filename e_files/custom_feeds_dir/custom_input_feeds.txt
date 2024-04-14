@@ -1,0 +1,6 @@
+News|custom test news|NY
+News|custom another test|CA
+Vacancy|Custom Epam|DQE|data quality engineer position for level A2-A3|2500
+Vacancy|Custom EPAM|PM|project manager for data project|3000
+PrivateAd|Custom Private house for rent|2024-12-11
+PrivateAd|Custom Volfswagen Golf for sale |2024-10-02
