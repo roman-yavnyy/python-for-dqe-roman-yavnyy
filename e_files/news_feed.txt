@@ -1,0 +1,51 @@
+News: test news | City: NY | Date: Sat Apr 13 18:55:58 2024 
+News: another test | City: CA | Date: Sat Apr 13 18:55:58 2024 
+Vacancy: ============================
+Company name: Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: EPAM 
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Volfswagen Golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+Private Advertisement: this is manual adv | Expiration date: 2024-10-15 00:00:00 | Days left: 184 
+News: custom test news | City: NY | Date: Sat Apr 13 18:59:21 2024 
+News: custom another test | City: CA | Date: Sat Apr 13 18:59:21 2024 
+Vacancy: ============================
+Company name: Custom Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: Custom EPAM 
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Custom Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Custom Volfswagen Golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+News: test news | City: NY | Date: Sat Apr 13 19:07:39 2024 
+News: another test | City: CA | Date: Sat Apr 13 19:07:39 2024 
+Vacancy: ============================
+Company name: Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: EPAM 
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Volfswagen Golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+News: next news for that time | City: new york | Date: Sun Apr 14 11:51:08 2024 
+News: news test task 7 | City: Los Angeles | Date: Sun Apr 14 11:52:11 2024 

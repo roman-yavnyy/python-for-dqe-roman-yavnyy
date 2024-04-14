@@ -1,0 +1,6 @@
+News|test news|NY
+News|another test|CA
+Vacancy|Epam|DQE|data quality engineer position for level A2-A3|2500
+Vacancy|EPAM|PM|project manager for data project|3000
+PrivateAd|Private house for rent|2024-12-11
+PrivateAd|Volfswagen Golf for sale |2024-10-02
