@@ -3,25 +3,29 @@ from datetime import datetime
 sys.path.append("..")
 from d_classes_oop.hw_05_classes_oop import save_feed, News, PrivateAd, Vacancies, run_app as manual_input
 from f_csv.hw_07_csv import run_metrics
+from g_json.hw_08_json import JsonFeedProvider
 
-class FileFeedProvider:
+
+class FileFeedProvider(JsonFeedProvider):
     def __init__(self):
         self.input_feeds_list = None
         self.input_type = None
-        self.path = './input_feeds.txt'
+        self.text_path = './input_feeds.txt'
         self.output_feeds_list = []
 
     def set_input_type(self):
         self.input_type = input("For manual input please enter 1 \n"
-                                "For input from file please enter 2 ")
-        while self.input_type not in ["1", "2"]:
+                                "For input from text file please enter 2 \n"
+                                "For imput from JSON file please enter 3")
+        while self.input_type not in ["1", "2", "3"]:
             self.input_type = input("Wrong input. Please try again ")
 
     def set_filepath(self):
         custom_path = input("If you want to provide input file path please enter it here \n"
                             "If not - leave blank and press Enter \n")
         if custom_path != "":
-            self.path = custom_path
+            self.text_path = custom_path
+            self.json_path = custom_path
 
     def read_feed(self):
         try:
@@ -30,7 +34,7 @@ class FileFeedProvider:
         except FileNotFoundError as e:
             print(f"Wrong filepath. {e}")
 
-    def prepare_feeds_from_file(self):
+    def prepare_feeds_from_csv_file(self):
         self.set_filepath()
         self.read_feed()
         if self.input_feeds_list:
@@ -65,7 +69,11 @@ if __name__ == "__main__":
     if feed_creator.input_type == "1":
         manual_input()
     elif feed_creator.input_type == "2":
-        feed_creator.prepare_feeds_from_file()
+        feed_creator.prepare_feeds_from_csv_file()
+        for feed in feed_creator.output_feeds_list:
+            save_feed(feed)
+    elif feed_creator.input_type == "3":
+        feed_creator.prepare_feeds_from_json_file()
         for feed in feed_creator.output_feeds_list:
             save_feed(feed)
     run_metrics()

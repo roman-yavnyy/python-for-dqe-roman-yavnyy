@@ -1,0 +1,20 @@
+{
+	"1": {
+		"feed_type": "News",
+		"text": "Something StRanGe Has HappeNed in CIty",
+		"city": "NY"
+	},
+	"2": {
+		"feed_type": "PrivateAd",
+		"text": "House For Sale",
+		"expiration_date": "2024-12-11"
+
+	},
+	"3": {
+		"feed_type": "Vacancy",
+		"company_name": "EpAm",
+		"name": "DQE",
+		"description": "SeniOr data Quality EngineEr with pytHon SkillS",
+		"salary": "3000"
+	}
+}
