@@ -2,7 +2,7 @@ import sys
 from datetime import datetime
 sys.path.append("..")
 from d_classes_oop.hw_05_classes_oop import save_feed, News, PrivateAd, Vacancies, run_app as manual_input
-
+from f_csv.hw_07_csv import run_metrics
 
 class FileFeedProvider:
     def __init__(self):
@@ -68,3 +68,4 @@ if __name__ == "__main__":
         feed_creator.prepare_feeds_from_file()
         for feed in feed_creator.output_feeds_list:
             save_feed(feed)
+    run_metrics()
