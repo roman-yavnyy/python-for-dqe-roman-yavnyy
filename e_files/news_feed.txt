@@ -1,0 +1,81 @@
+News: test news | City: NY | Date: Sat Apr 13 18:55:58 2024 
+News: another test | City: CA | Date: Sat Apr 13 18:55:58 2024 
+Vacancy: ============================
+Company name: Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: EPAM 
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Volfswagen Golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+Private Advertisement: this is manual adv | Expiration date: 2024-10-15 00:00:00 | Days left: 184 
+News: custom test news | City: NY | Date: Sat Apr 13 18:59:21 2024 
+News: custom another test | City: CA | Date: Sat Apr 13 18:59:21 2024 
+Vacancy: ============================
+Company name: Custom Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: Custom EPAM 
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Custom Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Custom Volfswagen Golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+News: test news | City: NY | Date: Sat Apr 13 19:07:39 2024 
+News: another test | City: CA | Date: Sat Apr 13 19:07:39 2024 
+Vacancy: ============================
+Company name: Epam 
+Vacancy name: DQE 
+Description: data quality engineer position for level A2-A3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: EPAM 
+Vacancy name: PM 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Volfswagen Golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+News: test news | City: ny | Date: Sat Apr 13 19:26:54 2024 
+News: another test | City: ca | Date: Sat Apr 13 19:26:54 2024 
+Vacancy: ============================
+Company name: epam 
+Vacancy name: dqe 
+Description: data quality engineer position for level a2-a3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: epam 
+Vacancy name: pm 
+Description: project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: volfswagen golf for sale  | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
+News: Test news | City: Ny | Date: Sat Apr 13 19:29:01 2024 
+News: Another test | City: Ca | Date: Sat Apr 13 19:29:01 2024 
+Vacancy: ============================
+Company name: Epam 
+Vacancy name: Dqe 
+Description: Data quality engineer position for level a2-a3 
+Salary: 2500 
+=====================================
+Vacancy: ============================
+Company name: EPAM 
+Vacancy name: Pm 
+Description: Project manager for data project 
+Salary: 3000 
+=====================================
+Private Advertisement: Private house for rent | Expiration date: 2024-12-11 00:00:00 | Days left: 241 
+Private Advertisement: Volfswagen golf for sale | Expiration date: 2024-10-02 00:00:00 | Days left: 171 
